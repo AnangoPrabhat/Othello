@@ -13,9 +13,8 @@ This project is an Othello (Reversi) game with a custom-built GUI and a challeng
 
 The AI's intelligence is driven by a **Negamax search algorithm** (a variant of Minimax) with **alpha-beta pruning**. This allows it to efficiently search the tree of possible future moves to find the optimal move. The final board positions are scored using a **positional evaluation heuristic** that assigns high value to strategic squares like corners and edges, a strategy refined through AI vs AI tournaments.
 
-## Core Technologies
+## Core Libraries Used
 
-- **Python 3**
 - **Tkinter**: For the graphical user interface.
 - **NumPy**: For efficient, high-performance representation and manipulation of the game board.
 - **Numba**: For just-in-time (JIT) compilation of performance-critical functions (move generation, evaluation), so the AI can run efficiently at higher depths.
