@@ -1,10 +1,10 @@
 # Othello AI Engine
 
-This project is a complete Othello (Reversi) game featuring a custom-built GUI and a formidable AI opponent. It supports both single-player (vs. AI) and two-player modes. The application is written in Python, leveraging the Tkinter library for the user interface.
+This project is a complete Othello (Reversi) game featuring a custom-built GUI and a challenging AI opponent. It supports both single-player (vs. AI) and two-player modes. The application is written in Python, utilising the Tkinter library for the user interface.
 
 ## Key Features
 
-- **Interactive GUI**: A clean, responsive game board that provides several real-time visual aids for an insightful gameplay experience.
+- **Interactive GUI**: A clean, responsive game board that provides several real-time visual aids for an interactive gameplay experience.
 - **Legal Move Highlighting**: Visually indicates all valid moves for the current player and displays the number of pieces each move would flip.
 - **Real-time Evaluation Bar**: A vertical bar, inspired by modern chess engines, provides a visual summary of the current positional advantage.
 - **AI Transparency**: In single-player mode, a list of the AI's top-rated moves and their heuristic scores is displayed, offering a direct window into its decision-making process.
